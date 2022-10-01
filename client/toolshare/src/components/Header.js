@@ -1,7 +1,19 @@
-import styled from 'styled-components';
+import './components-css/header.css';
 
-const Header = styled.div`
-    background-color: #84C327;
-`;
+export default function Header(){
+    return(
+    <div id='mm'>
+        <div>
 
-export default Header;
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+    </div>);
+}
