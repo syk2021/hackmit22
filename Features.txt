@@ -1,0 +1,23 @@
+Plan of action:
+
+Name of the app: TBD
+What are we focusing on: Sustainability
+Primary device: Website, Mobile app(later down the road)
+App: MERN Stack with a Mongoose setup?
+
+What is the app about: Airbnb for products - rental products
+
+Grace: Work on UI/UX Components and front end, backend?
+Sophia: Database Setup and front end and backend
+Sanskar: Front end and backend(except the database)
+Amit: Work with Sanskar and Grace to setup Front end and backend
+
+
+
+Initial features we want:
+* A button to reserve the item
+* 
+
+Optional Features:
+* Scheduling through calendar  - like airbnb
+* Login and Register
