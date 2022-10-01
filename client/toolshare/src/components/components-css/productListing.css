@@ -1,38 +1,29 @@
-#imagetag{
-    position: absolute;
+#mainbody{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
     width: 370px;
     height: 226px;
-    left: 96px;
-    top: 311px;
+}
+#imagetag{
+    width: 370px;
+    height: 226px;
     border-radius: 30px;
 }
 #productTitle{
-    position: absolute;
-    width: 246px;
-    height: 19px;
-    left: 96px;
-    top: 559px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
     font-size: 22px;
     line-height: 27px;
-
-    color: #000000;
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
-#productDescription{
-    position: absolute;
-    width: 246px;
-    height: 87px;
-    left: 96px;
-    top: 594px;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
+#productDescription{
     font-size: 16px;
     line-height: 19px;
-
-    color: #000000;
+    padding: 30px;
+    padding-top: 10px;
 }
+

@@ -1,7 +1,8 @@
 import './components-css/productListing.css';
 
 export default function ProductListing(props){
-    return(<div>
+    return(
+    <div id='mainbody'>
         <div>
             <img id="imagetag" src="https://i.imgur.com/YUlU9co.jpeg" alt='abc'/>
         </div>
