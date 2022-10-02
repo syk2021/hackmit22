@@ -2,9 +2,10 @@ import './components-css/productListing.css';
 
 export default function ProductListing(props){
     return(
-    <div id='mainbody'>
-        <div>
-            <img id="imagetag" src="https://i.imgur.com/YUlU9co.jpeg" alt='abc'/>
+    <div id='mg'>
+        <div class="container">
+            <img class="image" src="https://i.imgur.com/YUlU9co.jpeg" alt='abc'/>
+            <div class="overlay"></div>
         </div>
         <div id='productTitle'>
         <div>LawnMower</div>

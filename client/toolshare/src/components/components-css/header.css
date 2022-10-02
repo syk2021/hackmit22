@@ -1,9 +1,13 @@
 #mm{
 width: 1512px;
-height: 150px;
+height: 69px;
 background: #84C327;
 display: flex;
 flex: row;
 justify-content: space-around;
 }
 
+.titletext{
+    color: white;
+    font-size: 20px;
+}
