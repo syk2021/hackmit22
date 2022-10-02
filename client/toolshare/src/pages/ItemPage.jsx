@@ -1,5 +1,4 @@
 import ProductListing from "../components/ProductListing";
-import Grid from '@mui/material/Grid'; // Grid version 1
 import './pages-css/itemPages.css';
 
 const ItemPage = () => {

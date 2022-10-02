@@ -1,10 +1,13 @@
+import { NavLink } from 'react-router-dom'
 import './components-css/header.css';
 
 export default function Header(){
     return(
     <div id='mm'>
-        <div>
-            <b>commuShare</b>
+        <div class="commuShare-title">
+            <NavLink smoooth to="/" className="header-navlink">
+                <b>commuShare</b>
+                </NavLink>
         </div>
         <div>
             Search bar  
@@ -13,7 +16,9 @@ export default function Header(){
             Zip Code
         </div>
         <div>
-            Profile
+        <NavLink smoooth to="/reservations" className="header-navlink">
+                Reservations
+                </NavLink>
         </div>
     </div>);
 }

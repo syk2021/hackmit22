@@ -1,9 +1,7 @@
 import './components-css/productListing.css';
-import React, { useState, useEffect } from 'react';
-import PopUpModal from './PopUpModal';
+import React, { useState } from 'react';
 
 export default function ProductListing(props){
-    //const [disp1, setdisp1] = useState(false);
     const [disp2, setdisp2] = useState(false);
     const [disp3, setdisp3] = useState(false);
     return(
