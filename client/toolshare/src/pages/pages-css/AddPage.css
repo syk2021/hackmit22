@@ -1,7 +1,8 @@
 #mainbodyaddpage{
     display: grid;
     grid-template-columns: auto;
-    justify-content: space-around;
+    justify-content: left;
+    margin-left: 100px;
     padding-top: 50px;
 }
 #sharenew{
