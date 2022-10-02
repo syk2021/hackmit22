@@ -1,5 +1,6 @@
 import './components-css/productListing.css';
 import React, { useState, useEffect } from 'react';
+import PopUpModal from './PopUpModal';
 
 export default function ProductListing(props){
     //const [disp1, setdisp1] = useState(false);
@@ -26,7 +27,9 @@ export default function ProductListing(props){
                 </div>
             </div>):<></>}
             {disp3 ? (<div onClick = {() => setdisp3(false) & setdisp2(false)}>
-                <button id='dateButton3'>Confirm Registration</button>
+                <button id='dateButton3'>
+                    Confirm Registration
+                    </button>
             </div>):<></>}
             </div>
         </div>
