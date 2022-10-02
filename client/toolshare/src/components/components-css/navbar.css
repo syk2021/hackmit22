@@ -1,5 +1,5 @@
 .navbarwra{
-    display: flex;
+    display: flex;  
     padding-left: 30px;
     padding-right: 30px;
     justify-content: space-between;
@@ -21,4 +21,3 @@
     margin-left: auto;
     margin-right: auto;
 }
-

@@ -12,7 +12,7 @@ export default function ProductListing(props){
             <img class="productimage" src="https://i.imgur.com/YUlU9co.jpeg" alt='abc'/>
             <div class="productoverlay">
             <div onClick={() => setdisp2(true)}>
-                Available for August
+                <div class="monthav">Available for August</div>
                 <br/>
                 <div>
                 <button id='dateButton'>1</button>
