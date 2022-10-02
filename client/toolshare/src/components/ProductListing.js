@@ -35,7 +35,7 @@ export default function ProductListing(props){
         </div>
         <div id='productTitle'>
         <div>LawnMower</div>
-        <div>$102</div>
+        <div><b>$1.02</b> / use</div>
         </div>
         <div id='productDescription'>
             <b>Ryobi</b>
