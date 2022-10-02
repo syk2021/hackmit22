@@ -1,13 +1,30 @@
 import './components-css/productListing.css';
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Alert, Button, Box, Typography, Modal } from '@mui/material';
+
+const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+};
 
 export default function ProductListing(props){
     const [disp2, setdisp2] = useState(false);
     const [disp3, setdisp3] = useState(false);
+    const [open, setOpen] = useState(false);
+    const navigate = useNavigate();
+
     return(
     <div id='mg'>
         <div class="productcontainer">
-            <img class="productimage" src="https://i.imgur.com/YUlU9co.jpeg" alt='abc'/>
+            <img class="productimage" src={props.imagesrc} alt='abc'/>
             <div class="productoverlay">
             <div onClick={() => setdisp2(true)}>
                 <div class="monthav">Available for August</div>
@@ -24,23 +41,24 @@ export default function ProductListing(props){
                 <button id='dateButton2'>11:30 AM</button>
                 </div>
             </div>):<></>}
-            {disp3 ? (<div onClick = {() => setdisp3(false) & setdisp2(false)}>
+            {disp3 ? (<div onClick = {() => setOpen(true) & setdisp3(false) & setdisp2(false)}>
                 <button id='dateButton3'>
                     Confirm Registration
                     </button>
             </div>):<></>}
+            {open ? <Alert>Confirmed!</Alert>: <></>}
             </div>
         </div>
         <div id='productTitle'>
-        <div>LawnMower</div>
-        <div><b>$1.02</b> / use</div>
+        <div>{props.title}</div>
+        <div><b>${props.price}</b>/use</div>
         </div>
         <div id='productDescription'>
-            <b>Ryobi</b>
+            <b>{props.desc1}</b>
             <br/>
-            40V HP Brushless 20 in. 
+            {props.desc2}
             <br/>
-            Cordless Push Mower
+            {props.desc3}
         </div>
     </div>);
 }
