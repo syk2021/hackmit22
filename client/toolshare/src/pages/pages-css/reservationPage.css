@@ -1,0 +1,25 @@
+
+  .image {
+    padding-right: 20px;
+    padding-top: 10px;
+    float: left;
+    display: block;
+    width: 370px;
+    height: 226px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .date{
+    font-size: 15px;
+  }
+  
+  .title {
+    padding-top: 10px;
+    float: left;
+  }
+
+  .button {
+    padding-top: 10px;
+    float: right;
+  }

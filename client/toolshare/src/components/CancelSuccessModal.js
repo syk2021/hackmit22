@@ -14,7 +14,7 @@ const style = {
     p: 4,
 };
 
-const PopUpModal = () => {
+const CancelModal = () => {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -26,20 +26,16 @@ const PopUpModal = () => {
         aria-describedby="modal-modal-description">
             <Box sx={style}>
                 <Typography id="modal-modal-title" variant="h6" component="h2">
-                    <b>You're all set!</b>
+                    <b>Cancellation</b>
                 </Typography>
                 <Typography id="modal-modal-description" sx={{ mb: 1 }}>
-                    Your reservation for your item is complete!
+                    Are you sure you want to cancel your reservation?
                 </Typography>
-                <>
-                    <Button style={{ backgroundColor: '#446D04', color: 'white'}} sx={{mr: 2, justifyContent: "flex-end"}}>View Reservations</Button>
-                    <Button style={{ color: '#446D04' }} sx={{ border: "1px solid #446D04", borderRadius: 1, justifyContent: "flex-end"}}>Cancel Reservation</Button>
-                </>
             </Box>
         </Modal>
         </>
     )
 };
 
-export default PopUpModal;
+export default CancelModal;
 
