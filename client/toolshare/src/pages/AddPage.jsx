@@ -8,7 +8,7 @@ const AddPage = () => {
         <br/>
         <div id='itemcat'>Item Category</div>
         <br/>
-        <div id='boxcat'></div>
+        <div id='boxcat'>Lawn and garden</div>
         <br/>
         <div id='formforadd'>
             <div id='firstrowform'>

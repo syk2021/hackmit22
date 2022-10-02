@@ -96,3 +96,10 @@
     height: min-content;
     padding: 10px;
 }
+
+#addbutton{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 25%;
+}

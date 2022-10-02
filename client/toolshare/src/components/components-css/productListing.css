@@ -36,6 +36,16 @@
 } 
 
 #dateButton{
+  background-color:white;
+  color: green;
+  border-radius: 7px;
+  margin-left: 15px;
+  margin-bottom: 7px;
+  width: 33px;
+  height: 30px;
+  border: none;
+}
+#dateButton:hover{
   background-color:#446D04;
   color: white;
   border-radius: 7px;
@@ -45,6 +55,10 @@
   height: 30px;
   border: none;
 }
+#dateButton:focus {
+  background-color: #446D04;
+  color: white;
+}
 
 #dateButton2{
   width: 130px;
@@ -53,10 +67,26 @@
   top: 406px;
   margin-bottom: 7px;
   margin-left: 15px;
-  background: #446D04;
+  background: white;
+  border-radius: 7px;
+  color: green;
+  border: none;
+}
+#dateButton2:hover{
+  width: 130px;
+  height: 25px;
+  left: 290px;
+  top: 406px;
+  margin-bottom: 7px;
+  margin-left: 15px;
+  background: green;
   border-radius: 7px;
   color: white;
   border: none;
+}
+#dateButton2:focus, #dateButton:visited {
+  background-color: #446D04;
+  color: white;
 }
 
 #dateButton3{
@@ -71,6 +101,19 @@ border-radius: 7px;
 color: white;
 border: none
 }
+
+#dateButton3:hover{
+  width: 142.37px;
+  height: 29px;
+  left: 153px;
+  top: 446px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  background: white;
+  border-radius: 7px;
+  color: green;
+  border: none
+  }
 
 #productTitle{
 font-style: normal;

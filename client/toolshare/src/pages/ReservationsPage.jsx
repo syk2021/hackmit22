@@ -27,7 +27,7 @@ const ReservationsPage = () => {
         <Card variant="outlined" sx={{mt: 1}}>
             <h class="date"><b>Tomorrow</b> October 3, 2022</h>
             <div class="container">
-                <img class="image" src="https://i.insider.com/5d124f9a9c5101048e440825?width=1000&format=jpeg&auto=webp" alt='abc'/>
+                <img class="image" src="https://media.cnn.com/api/v1/images/stellar/prod/mowing-the-lawn-lede.jpg?c=16x9&q=h_270,w_480,c_fill" alt='abc'/>
                 <div class="title">
                     Lawnmower
                     <br/>
@@ -60,6 +60,21 @@ const ReservationsPage = () => {
                 }
             </div>
         </Card>
+
+        <br/>
+        <h style={{ fontSize: '30px'}}><b>Past reservations</b></h>
+        <Card>
+            <h class="date"><b>July 24, 2022</b> Sunday</h>
+            <div class="container">
+                <img class="image" src="http://mobileimages.lowes.com/productimages/44f2e57a-6c6d-444d-8b5d-6a92ebeb9a77/11371190.jpg" alt='abc'/>
+                <div class="title">
+                    Wheel Barrow
+                    <br/>
+                    Scheduled for 10:30AM-17:30PM
+                </div>
+            </div>
+        </Card>
+
         </>
     )
 };
