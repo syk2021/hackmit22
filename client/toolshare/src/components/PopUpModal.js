@@ -1,6 +1,7 @@
 import { Button, Box, Typography, Modal } from '@mui/material';
 import { borders } from '@mui/system';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const style = {
     position: 'absolute',
@@ -18,6 +19,7 @@ const PopUpModal = () => {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+    const navigate = useNavigate();
 
     return (
         <>
@@ -32,8 +34,7 @@ const PopUpModal = () => {
                     Your reservation for your item is complete!
                 </Typography>
                 <>
-                    <Button style={{ backgroundColor: '#446D04', color: 'white'}} sx={{mr: 2, justifyContent: "flex-end"}}>View Reservations</Button>
-                    <Button style={{ color: '#446D04' }} sx={{ border: "1px solid #446D04", borderRadius: 1, justifyContent: "flex-end"}}>Cancel Reservation</Button>
+                    <Button style={{ backgroundColor: '#446D04', color: 'white'}} sx={{mr: 2, justifyContent: "flex-end"}} onClick={navigate("/reservations")}>View Reservations</Button>
                 </>
             </Box>
         </Modal>

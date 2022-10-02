@@ -21,7 +21,7 @@
 .productoverlay {
   position: absolute; 
   bottom: 0; 
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(255, 255, 255, 0.8); /* Black see-through */
   width: 100%;
   transition: .5s ease;
   opacity:0;

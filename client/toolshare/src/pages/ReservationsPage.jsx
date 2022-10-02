@@ -1,7 +1,10 @@
 import { Button, Card } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 import './pages-css/reservationPage.css';
 
 const ReservationsPage = () => {
+    const navigate = useNavigate();
+
     return (
         <>
         <h style={{ fontSize: '30px'}}><b>Upcoming reservations</b></h>
@@ -16,8 +19,7 @@ const ReservationsPage = () => {
                 </div>
             </div>
             <div class="button">
-                <Button style={{ backgroundColor: '#446D04', color: 'white'}} sx={{mr:2}}>Modify Reservation</Button>
-                <Button style={{ color: '#446D04'}} sx={{ border: "1px solid #446D04", borderRadius: 1}}>Cancel Reservation</Button>
+                <Button style={{ backgroundColor: '#446D04', color: 'white'}} sx={{mr:2}}>Cancel Reservation</Button>
             </div>
         </Card>
         </>
