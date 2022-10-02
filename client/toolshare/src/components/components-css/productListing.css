@@ -16,6 +16,8 @@
   display: block;
   width: 370px;
   height: 226px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .productoverlay {
@@ -31,3 +33,40 @@
 .productcontainer:hover .productoverlay {
   opacity: 1;
 } 
+
+#dateButton{
+  background-color:#446D04;
+  color: white;
+  border-radius: 7px;
+  margin-left: 5px;
+  margin-bottom: 7px;
+  width: 33px;
+  height: 30px;
+  border: none;
+}
+
+#dateButton2{
+  width: 130px;
+  height: 25px;
+  left: 290px;
+  top: 406px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  background: #446D04;
+  border-radius: 7px;
+  color: white;
+  border: none;
+}
+
+#dateButton3{
+width: 142.37px;
+height: 29px;
+left: 153px;
+top: 446px;
+margin-left: 5px;
+margin-bottom: 5px;
+background: #84C327;
+border-radius: 7px;
+color: white;
+border: none;
+}
